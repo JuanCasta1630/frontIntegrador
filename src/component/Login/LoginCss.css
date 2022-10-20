@@ -1,0 +1,17 @@
+:root{
+      font-size: 10px;
+}
+.Prueba{  
+      background-color: black;
+      width: 400px;
+      height: 400px;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      
+      border: 2px solid red;
+}
+      
+    

@@ -1,0 +1,38 @@
+:root{
+  font-size: 10px;
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  
+}
+
+header{
+  
+  height: 5rem; /* 50px */
+  background-color: aqua ;
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;/* 30px */
+}
+.Logo{
+  width: 11rem;
+  height: 8rem;
+  border: 3px solid black;
+  border-radius: 60%;
+}
+
+body{
+  background-color: gray;
+}
+.cosa{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  cursor: pointer;
+}
