@@ -13,5 +13,17 @@
       
       border: 2px solid red;
 }
+form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+input{
+      margin: 8px;
+      border-radius: 25%;
+      padding: 8px;
+      border: 1px solid red;
+}
       
     
