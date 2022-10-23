@@ -1,17 +1,15 @@
 :root{
       font-size: 10px;
 }
-.Prueba{  
+.login{  
       background-color: black;
-      width: 400px;
-      height: 400px;
+      width: 50rem;
+      height: 35rem;
       color: white;
-      font-size: 20px;
+      font-size: 2rem;
       display: flex;
       justify-content: center;
-      padding: 20px;
-      
-      border: 2px solid red;
+      border: 0.2rem solid red;
 }
 form{
       display: flex;
@@ -20,10 +18,13 @@ form{
       align-items: center;
 }
 input{
-      margin: 8px;
+      margin: 0.8rem;
       border-radius: 25%;
-      padding: 8px;
-      border: 1px solid red;
+      padding: 0.8rem;
+      border: 0.1rempx solid red;
 }
-      
-    
+.redireccion1{
+      font-size: 1.2rem;
+      color: white;
+      margin-top: 1rem;
+}

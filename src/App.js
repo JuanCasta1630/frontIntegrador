@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './component/Fijos/header';
+import Footer from './component/Fijos/footer';
 import Home from './component/Home/Home';
 import Login from './component/Login/Login';
 import Registro from './component/Registro/Registro';
@@ -17,6 +18,7 @@ function App() {
           <Route path='/Registro' element = { <Registro/> } />
         </Routes> 
       </main>
+      <Footer/>
     </div> 
   );
 }

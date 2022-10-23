@@ -1,0 +1,25 @@
+:root{
+    font-size: 10px;
+}
+.register{  
+    background-color: black;
+    width: 50rem;
+    height: 35rem;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 0.8rem;
+    border-radius: 25%;
+    padding: 0.8rem;
+    border: 0.1rempx solid red;
+}
