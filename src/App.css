@@ -1,5 +1,5 @@
 :root{
-  font-size: 1rem;
+  font-size: 10px;
 }
 p{
   font-size: 2rem;
@@ -61,4 +61,12 @@ footer{
   color: black;
   position: absolute;
   right: 5rem;
+}
+.contenedor1{
+  display: flex;
+}
+.copyright{
+  font-size: 2rem;
+  display: flex;
+  padding: 0.9rem;
 }

@@ -8,7 +8,11 @@ function footer() {
             </div>
             <div className='icon2'>
                 <ion-icon name="logo-facebook"></ion-icon>
-            </div>
+                </div>
+                <div className='isologo'>
+                    
+                </div>
+                <span className='copyright'>2022 - 22023 ©</span>
         </footer>
     )
 }
