@@ -1,17 +1,79 @@
-:root{
-      font-size: 10px;
+.Login{
+   width: 40%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #0f3f54;
+   
+   position: relative;
 }
-.Prueba{  
-      background-color: black;
-      width: 400px;
-      height: 400px;
-      color: white;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-      
-      border: 2px solid red;
+.Login_Form{
+   width: 70%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
 }
-      
-    
+.Form_Salida{
+   text-decoration: none;
+}
+.Salida_Texto{
+   color: white;
+   position: absolute;
+      top: 0;
+      right: 10px;
+   font-size: 40px;
+}
+.Nombre_Form{
+   padding: 3px;
+   font-size: 20px;
+   color: rgb(252, 222, 183);
+   
+}
+.Form_Input{
+   background-color: rgb(252, 222, 183);
+   border: 2px solid  goldenrod;
+   
+   width: 80%;
+   padding: 5px;
+}
+.Form_Boton{
+   width: max-content;
+   background-color: #DFAD8B);
+   color: #050505;
+   font-size: 20px;
+   margin: 15px 0;
+   padding: 3px;
+   border: 2px solid #DFAD8B;
+   
+   position: relative;
+   left: 30px;
+}
+.Form_Texto{
+   font-size: 20px;
+   color: #b4aeae;
+}
+.Form_Link{
+   color: #DFAD8B;
+}
+
+@media ( max-width: 900px ) {
+   .Login{
+      width: 80%;
+   }
+   .Login_Form{
+      width: 80%;
+   }
+   .Form_Input{
+      width: 70%;
+   }
+   .Form_Boton{
+      left: 0;
+   }
+   .Form_Texto{
+      font-size: 15px;
+   }
+}

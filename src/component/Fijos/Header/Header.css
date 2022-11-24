@@ -1,0 +1,111 @@
+
+header{
+    background-color: #071723;
+    width: 100%; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .Header_Contenedor{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2px;
+  }
+  .Contenedor_Logo{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Logo_Imagen{
+    width: 13rem;
+    height: 3rem;
+    position: relative;
+    left: 30px;
+    box-shadow: 0 0 3px 2px rgba(182, 237, 200, 0.7);
+    background-color: #071723;
+  }
+  .Nombre_Link{
+    text-decoration:none;
+  }
+  .Logo_Nombre{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    font-size: 26px;
+    background-color: #071723;;
+    color:  rgb(214, 213, 213);
+    text-decoration:none;
+  }
+  .Contenedor_Router{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .click{
+    cursor: pointer;
+  }
+  .Router_Botones{
+
+    padding: 15px;
+    margin: 5px;
+    background-color: #DFAD8B;
+    border: #DFAD8B;
+    box-shadow: 0 0 5px 1px rgb(212, 209, 209);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .hamburguesa{
+    display: none;
+  }
+  @media ( max-width: 640px ){
+    .Header_Contenedor{
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+    }
+    .Contenedor_Logo{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around ;
+      align-items: center;
+
+    }
+    
+    .Logo_Nombre{
+      border: 0.1px;
+      display: none;
+    }
+    .Router_Botones{
+      display: none;
+    }
+    .hamburguesa{
+      display: block;
+    }
+    .Texto_hamburguesa{
+      color: rgb(152, 252, 252);;
+      position: relative;
+      top: 8px;
+      font-size: 40px;
+    }
+  @media (max-width: 505px){
+    
+    .Header_Contenedor{
+      width: 95%;
+    }
+    .Logo_Nombre{
+      position: relative;
+      top: 30px;
+      font-size: 15px;
+    }
+  }
+  }

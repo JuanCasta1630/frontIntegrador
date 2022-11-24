@@ -1,0 +1,65 @@
+
+.Bloque_Perfil{
+      width: 160px;
+      background-color: rgb(103, 103, 103);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-radius: 15%;
+      padding: 9px;
+      box-shadow:inset 0 0 17px 9px  #2c3b46;
+}
+.Perfil_Imagen{
+      height: 100%;
+      background-color: #642424;;
+      border: 2px solid rgb(255, 115, 0);
+      padding: 9px;
+      border-radius: 30%;
+      box-shadow:inset 0 0 12px #642424;
+      margin-right: 10px;
+}
+.Imagen_Nombre{
+      color: rgb(245, 245, 245);
+      font-size: 17px;
+}
+.Perfil_Boton{
+      width: 60%;
+      background-color: #642424;;
+      border: 2px solid rgb(255, 115, 0);
+      padding: 4px;
+      border-radius: 30%;
+      box-shadow:inset 0 0 12px  #642424;
+      color: rgb(245, 245, 245); 
+      font-size: 15px;   
+}
+
+@media ( max-width: 600px ){
+      .Bloque_Perfil{
+            width: 110px;
+            background-color: rgb(103, 103, 103);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15%;
+            padding: 3px;
+            position: relative;
+            left: 5px;
+      }
+      .Imagen_Nombre{
+            color: rgb(245, 245, 245);
+            font-size: 15px;
+      }
+@media ( max-width: 490px ){
+      .Bloque_Perfil{
+            width: 90px; 
+      }
+      .Imagen_Nombre{
+            color: rgb(245, 245, 245);
+            font-size: 15px;
+      }
+      .Perfil_Imagen{
+            margin: 2px;
+      }
+      }
+}
