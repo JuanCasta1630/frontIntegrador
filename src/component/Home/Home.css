@@ -1,38 +1,91 @@
-*{
-  margin: 0;
-  padding: 0;
+.Home1{
+   width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 100px;
+    background-color: #fff;
 }
-.Home{
+.Home_Form_Buscador{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   background-color: #0f3f54;
+   padding-bottom: 8px;
+}
+.Buscador_Titulo{
+  color: #ececec;
+  font-size: 40px;
+}
+.Buscador_Input{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #0f3f54;
+   padding-bottom: 8px;
+}
+.Input_Ciudades{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   margin: 10px 10px 10px;
+   width: 20%;
+   height: 100%;
+   position: relative;
+   top: 3px;
+   padding-bottom: 10px;
+ }
+.Input_Fechas{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   margin: 10px 10px 10px;
+   width: 30%;
+   height: 100%;
+   position: relative;
+   top: 3px;
+   padding-bottom: 10px;
+}
+.selector{
+  position: relative;
+  bottom: 5px;
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #FCFCFC;
+  height: 36px;
+  background-color: #f6f4f2;
+  color: #0f3f54;
+  font-size: 15px;
+  margin: 4px;
+  border: 1px solid  white;
+  box-shadow: 0 0 5px 1px grey;
+  padding: 4px;
+  border-radius: 8px;
+}
+.Selector_Titulo{
+   
+}
+.Buscador_Label_Button{
+  width: 15%;
+  height: 100%;
+  align-items: flex-end;
+  margin: 9px;
+  padding-bottom: 20px;
  
-  padding: 15px;
-  position: relative;
 }
-.Home_From{
-  width: 97%;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  background-color: #0f3f54;
-
-  padding-bottom: 8px;
+/*#F2DEBA*/
+.HForm_Boton{
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  color: #0f3f54;
+  margin: 4px;
+  border: 1px solid  white;
+  box-shadow: 0 0 5px 1px grey;
+  padding: 6px;
+  border-radius: 8px;
   
-}
-label{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-  margin: 10px 10px 10px;
-  width: 180px;
-  height: 60px;
-  position: relative;
-  top: 3px;
-  padding-bottom: 10px;
 }
 strong{
   font-size: 25px;
@@ -40,16 +93,7 @@ strong{
   color: #ececec;
   border-radius: 10%;
   padding: 2px 4px;
-}
-.selector{
-  width: 100%;
-  background-color: #F2DEBA;
-  color: #0f3f54;
-  font-size: 15px;
-  margin: 4px;
-  border: 1px solid  white;
-  box-shadow: 0 0 5px 1px grey;
-  padding: 4px;
+  flex-wrap: nowrap;
 }
 .boton{
   width: 90px;
@@ -65,203 +109,310 @@ strong{
   right: 10PX;
   cursor: pointer;
 }
-.Form_Caregorias{
-  width: 97%;
-  height: 8%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 8px  0 ;
-}
-.Categorias_button{
-  width: 15%;
-  height: 100%;
-  background-color: #DFAD8B;
-  color: rgb(4, 4, 41);
-  font-size: 20px;
-  border: #FCFCFC;
-  box-shadow: 0 0 5px 1px rgb(209, 206, 206);
-  padding: 4px;
-  cursor:pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.Categoria_Texto{
-  padding: 3px;
-  font-size: 90%;
-  font-weight: 700;
-  transition: 2s;
-}
-.Categoria_Texto:hover{
-  text-decoration:3px underline rgb(227, 224, 224);
-  box-shadow: 0 0 3px 3px rgb(189, 189, 189);
-}
-.Imagen_Categoria{
-  width: 20px;
-  height: 20px;
-}
-.Cards{
-    width: 90%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-    border-radius: 5px;
-    background: rgba(246, 244, 244, 0.05);
-    backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-right-color: rgba(255, 255, 255, 0.1);
-    border-bottom-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    position: relative;
-    
-}
-.card{
-  width: 45%;
-  background-color: #f8e9d4 ;
-  padding: 7px 7px 9px 7px ;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  
+.Contendor_Categorias{
+   width: 100%;
+   height: auto;
+   text-align: center;
+   padding-bottom: 3px;
 }
 
-.img_Card{
-    width: 150px;
-    height: 150px;
-    margin: 5px 5px 0 0;
-    border-radius: 10%;
-    position: relative;
-    left: 17px;
-    display: block;
-        
-      
-    
+.Categorias_Titulo{
+   margin-bottom: 5px;
+}
+.Contenedor_Categorias_Card{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   position: relative;
+}
+.Categorias_Card{
+   width: 23%;
+   height: auto;
+   background-color: aliceblue;
+   margin: 3px 5px;
+   padding: 10px 0;
+   transition: 0.3s;
+   cursor: pointer;
+   box-shadow: 0 0 0 0 rgba(0,0,0,0.5);
+}  
+.Categorias_Card:focus{
+   box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+}
+.Categorias_Card:hover{
+   box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+}
+
+.Categorias_Card_Imagen{
+   width: 92%;
+   height: 70%;
+}
+.Categorias_Card_Titulo{
+   width: 90%;
+   font-size: 25px;
+   color: black;
+   text-align: start;
+   position: relative;
+   left: 10px;
+}
+.Categorias_Card_Cantidad{
+   font-size: 16px;
+   text-align: start;
+   position: relative;
+   left: 10px;
+   bottom: 5px;
+}
+.Contenedor_Recomendados{
+   width: 100%;
+   height: 330px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Recomendados_Titulo{
+   text-align: center;
+}
+.Recomendados_Cards{
+   width: 80%;
+   height: 100%;
+   background-color: aliceblue;
+   padding-bottom: 20px ;
+   position: relative;
+}
+.Scroll_Left{
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   left: -55px;
+   top: 40%;
+   background-color: rgb(160, 208, 250);
+   border-radius: 50%;
+   padding: 7px;
+}
+.Scroll_Right{
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   right: -55px;
+   top: 40%;
+   background-color: rgb(160, 208, 250);
+   border-radius: 50%;
+   padding: 7px;
+}
+.Scroll{
+   overflow: hidden;
+   width: 96%;
+   height: 100%;
+}
+.flex{
+   width: 200%;
+   height: 100%;
+   display: flex;
+}
+.Scroll_Card{
+   width: 100%;
+   height: 230px;
+   background-color: #f8e9d4;
+   margin-top: 20px;
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+   border: 1px solid maroon;
+}
+.Scroll_Img{
+   width: 50%;
+   height: 100%;
+}
+.Contenedor_Info{
+   width: 50%;
+   height: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 2px 5px 0;
    
 }
-
-.Div_descripcio{
-  width: 100%;
-  text-align: center;
+.Scroll_Titulo{
+   margin: 2px 5px 0;
+   color: rgb(12, 12, 35);
+   font-size: 25px;
+   font-weight: 500;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.descripcion_Card{
-  text-align: center;
-  margin-top: 15px;
-  color: rgb(12, 12, 35);
-  font-size: 30px;
-  font-weight: 200;
-  font-family: "Lato";
-  
+.Info_Bot{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
 }
-.button_Card{
-  width: 35%;
-  height: 50%;
-  background-color: #DFAD8B;
-  color: black;
-  border: 1px solid whitesmoke;
-  box-shadow: 0 0 5px 1px grey;
-  padding: 4px;
-  cursor: pointer;
-  font-size: 20px;
+.Info_Precio {
+    text-align: center;
+    margin-top: 17px;
+    color: rgb(37, 37, 46);
+    font-size: 23px;
+    font-weight: 2;
 }
-@media ( max-width: 900px ){
-  
-  .titulo_Card{
-    font-size: 18px;
-    color: #1f0c0c;
-  }
-  .img_Card{
-    width: 100px;
-    height: 100px;
-  }
-  .button_Card{
-    margin-top: 10px;
-    width: 130px;
-  }
+.Info_Bot_Button{
+   width: auto;
+   height: 30px;
+   background-color: #DFAD8B;
+   padding: 5px;
+   color: black;
+   font-size: 23px;
+   font-weight: 500;
+   border: 2px solid #DFAD8B;
+   display: flex;
+   align-items: center; 
 }
-@media ( max-width: 780px )  {
- 
-  .Home_From{
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px ;
-  }
-  .boton{
-    height: 34%;
-    position: relative;
-    top: 25px;
-  }
-  .selector{
-    width: 70%;
-  }
-  .Form_Caregorias{
-    width: 100%;
-  }
-  .Categorias_button{
-    margin: 5px 0;
-  }
-  .Cards{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } 
-  .card{
-    width: 70%;
-  }
-  
-
-  @media ( max-width: 620px ){
-    .Home_From{
-      width: 90%;
-      flex-wrap: wrap;
-    }
-    .label{
-      width: 40%;
-    }
-    .boton{
-      top:0;
-      right: 0 ;
-      left: 0;
-      margin-right: 50px;
-    }
-    .Form_Caregorias{
-      width: 90%;
-      height: auto;
-      flex-wrap: wrap;
-    }
-    .Categorias_button{
-      width: auto;
-      height: 40px;
-    }
-    
-  }
-  @media ( max-width: 500px ){
-    .Home_From{
+.Contenedor_Cards{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+@media (max-width: 830px){
+   .Buscador_Titulo{
+      font-size: 30px;
+   }
+   .Selector_Titulo{
+      font-size: 20px;
+   }
+   .Contenedor_Categorias_Card {
       display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .boton{
-      margin: 5px 0;
-    }
-    .Form_Caregorias{
-      width: 80%;
-    }
-    .Cards{
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      flex-wrap: wrap;
+  }
+   .Categorias_Card {
+      width: 40%;
+      height: auto;
+      background-color: aliceblue;
+      margin: 3px 5px;
+      padding: 10px 0;
+      transition: 0.3s;
+      cursor: pointer;
+      box-shadow: 0 0 0 0 rgb(0 0 0 / 50%);
+   }
+   .Contenedor_Recomendados {
+      width: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-    .card{
-      width: 90%;
-    }
-  }
+   }
+   .Scroll{
+      height: 100%;
+   }
+   .flex{
+      width: 300%;
+      height: 100%;
+      display: flex;
+   }
+   .Scroll_Card{
+      width: 31%;
+      height: 90%;
+      background-color: #f8e9d4;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      border: 1px solid maroon;
+   }
 }
-
+@media (max-width: 650px){
+   .Buscador_Titulo{
+      font-size: 23px;
+   }
+   .Selector_Titulo{
+      font-size: 15px;
+   }
+   .Scroll_Left{
+      left: -30px;
+   }
+   .Scroll_Right{
+      right: -30px;
+   }
+   .Scroll_Card{
+      height: auto;
+      position: relative;
+   }
+   .Recomendados_Titulo{
+      font-size: 30px;
+   }
+  
+}
+@media (max-width: 530px){
+   .Info_Bot{
+      flex-direction: column;
+      align-items: center;
+      height: 40%;
+   }
+   .Info_Link{
+      width: 100%;
+   }
+   .Info_Bot_Button{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+}
+@media (max-width: 504px){
+   .Buscador_Titulo{
+      font-size: 23px;
+   }
+   .Buscador_Input{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #0f3f54;
+      padding-bottom: 8px;
+      text-align: center;
+   }
+   .Selector_Titulo{
+      font-size: 25px;
+   }
+   .Input_Ciudades{
+      width: 90%;
+   }
+   .Input_Fechas{
+      width: 90%;
+   }
+   .rs-picker-block {
+      width: 100%;
+   }
+   .Buscador_Label_Button{
+   width: 90%;
+   height: 100%;
+   padding-bottom: 20px;
+  
+   }
+}
+@media (max-width: 470px){
+   .Contenedor_Categorias_Card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .Categorias_Card{
+      width: 80%;
+   }
+   .Categorias_Card_Imagen{
+      width: 90%;
+      height: 200px;
+   }
+   .Scroll_Card{
+      height: 480px;
+      flex-direction: column;
+      margin-bottom: 10px;
+   }
+   .Scroll_Img{
+      width: 100%;
+      height: 50%;
+   }
+   .Contenedor_Info{
+      width: 100%;
+      height: 50%;
+   }
+   .Recomendados_Titulo{
+      font-size: 20px;
+   }
+}

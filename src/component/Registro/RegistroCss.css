@@ -1,6 +1,6 @@
 .Register{  
    width: 60%;
-   height: 500px;
+   height: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -12,25 +12,68 @@
 .Register_Form{
    width: 70%;
    height: 100%;
+   padding: 20px 0;
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
-   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
 }
 
-.Form_Nombre{
-   width: auto;
+.Registro_Titulo{
    font-size: 35px;
    font-weight: 700;
    color: #F8E9D4;
 }
-
-.Boton_Texto{
-   text-decoration: none;
-   color: #050505;
+.Div_Nombre{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   width: 100%;
 }
-@media (max-width: 900px ) {
+.Texto{
+   width: 45%;
+   text-align: start;
+}
+.inputs{
+   width: 100%;
+}
+.Registro_Boton{
+      width: 60%;
+      background-color: #DFAD8B;
+      color: #050505;
+      font-size: 20px;
+      margin-top: 10px;
+      border: 2px solid #DFAD8B;
+}
+.Registro_Texto{
+   width: 90%;
+   font-size: 18px;
+   color: #b4aeae;
+}
+
+@media (max-width: 830px ) {
    .Register{
    width: 80%;
+   }
+   .Registro_Texto{
+      width: 55%;
+   }
+}
+@media (max-width: 650px ){
+   .Registro_Texto{
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+   }
+}
+@media (max-width: 480px ){
+   .Registro_Texto{
+      width: 80%;
+   }
+}
+@media (max-width: 390px ){
+   .Registro_Texto{
+      width: 100%;
+      font-size: 17px;
    }
 }

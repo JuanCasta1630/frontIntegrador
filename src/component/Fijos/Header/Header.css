@@ -51,11 +51,11 @@ header{
     cursor: pointer;
   }
   .Router_Botones{
-
+    color: #071723;
     padding: 15px;
     margin: 5px;
-    background-color: #DFAD8B;
-    border: #DFAD8B;
+    background-color: #f7f2ef;
+    border-radius: 8px;
     box-shadow: 0 0 5px 1px rgb(212, 209, 209);
     font-size: 18px;
     font-weight: 700;

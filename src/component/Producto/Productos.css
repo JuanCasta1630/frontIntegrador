@@ -1,3 +1,6 @@
+.Producto{
+    width: 100%;
+}
 .mas_Info{
     height: auto;
     width: 100%;
@@ -93,12 +96,12 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 10px;
-    background-color: #F8E9D4;
+    background-color: #FCFCFC;
 }
 .Informacion{
     width: 90%;
     position: relative;
-    background-color: #DFAD8B;
+    background-color: #FCFCFC;
     padding-left: 5px;
     margin-left:5px ;
 }
@@ -109,8 +112,8 @@
     text-decoration:underline;
 }
 .info_Texto{
-    position: relative;
-    background-color: #DFAD8B;
+    position:relative;
+    background-color: #FCFCFC;
     padding: 5px;
 }
 .caracteristicas{
@@ -127,8 +130,9 @@
     height: 15px;
 }
 .Contenedor_Reserva{
+    width: 100%;
     text-align: center;
-    background-color: #DFAD8B;
+    background-color: #FCFCFC;
 }
 .Contenedor_Bot{
     width: 100%;
@@ -149,11 +153,9 @@
 .Boton_Boton{
     padding: 6px;
     margin: 5px;
-    border-radius: 30%;
     background-color: #DFAD8B;
-    box-shadow: 0 0 5px 1px grey;
+    box-shadow: 0 0 5px 1px rgb(248, 246, 246);
     font-weight: 600;
-    cursor: pointer;
 }
 
 .slider{
@@ -280,15 +282,15 @@
     }
     .slider{
         display: block;
-        width: 100%;
-        height: auto;
+        width: 90%;
+        height: 300px;
         overflow: hidden;
     }
     .slider ul{
         display: flex;
-        animation: cambio 17s Infinite
+        animation: cambio 16s Infinite
         alternate linear;
-        width: 700%;
+        width: 500%;
     }
     .slider li{
         width: 100%;
@@ -297,7 +299,7 @@
     }
     .slider img{
         width: 100%;
-        height: 100%;
+        height: 300px;
     }
     .Numero_Silder{
         color: rgb(5, 55, 100);
@@ -324,25 +326,20 @@
     }
     @keyframes cambio{
         0%{margin-left: 0;}
-        10%{margin-left: 0;}
+        9%{margin-left: 0;}
 
         15%{margin-left: -100%;}
-        25%{margin-left: -100%;}
+        32%{margin-left: -100%;}
 
-        30%{margin-left: -200%;}
-        40%{margin-left: -200%;}
+        41%{margin-left: -200%;}
+        59%{margin-left: -200%;}
 
-        45%{margin-left: -300%;}
-        55%{margin-left: -300%;}
+        68%{margin-left: -300%;}
+        86%{margin-left: -300%;}
 
-        60%{margin-left: -400%}
-        70%{margin-left: -400%}
+        95%{margin-left: -400%}
+        100%{margin-left: -400%}
 
-        75%{margin-left: -500%}
-        85%{margin-left: -500%}
-
-        90%{margin-left: -600%}
-        100%{margin-left: -600%}
     }
     .Contenedor_Bot{
         display: flex;

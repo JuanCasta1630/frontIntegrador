@@ -1,24 +1,20 @@
 .Login{
-   width: 40%;
+   width: 50%;
    height: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    background-color: #0f3f54;
-   
    position: relative;
 }
 .Login_Form{
    width: 70%;
-   height: 50%;
+   height: 70%;
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
-   justify-content: center;
-}
-.Form_Salida{
-   text-decoration: none;
+   justify-content: space-between;
+   align-items: center;
 }
 .Salida_Texto{
    color: white;
@@ -26,6 +22,31 @@
       top: 0;
       right: 10px;
    font-size: 40px;
+   transition: 0.7s;
+}
+.Form_Salida{
+   text-decoration: none;
+}
+.Salida_Texto:hover{
+   color: red;
+}
+.Form_Titulo{
+   width: 100%;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   color: rgb(214, 213, 213);
+}
+.Form_Contenido{
+   text-align: start;
+   width: 100%;
+   padding: 5px 0 20px 0;
+}
+.Form_Input{
+   background-color: rgb(252, 222, 183);
+   border: 2px solid  goldenrod; 
+   width: 100%;
+   padding: 5px;
 }
 .Nombre_Form{
    padding: 3px;
@@ -33,24 +54,14 @@
    color: rgb(252, 222, 183);
    
 }
-.Form_Input{
-   background-color: rgb(252, 222, 183);
-   border: 2px solid  goldenrod;
-   
-   width: 80%;
-   padding: 5px;
-}
 .Form_Boton{
-   width: max-content;
-   background-color: #DFAD8B);
+   width: 60%;
+   justify-content: center;
+   background-color: #DFAD8B;
    color: #050505;
    font-size: 20px;
-   margin: 15px 0;
    padding: 3px;
    border: 2px solid #DFAD8B;
-   
-   position: relative;
-   left: 30px;
 }
 .Form_Texto{
    font-size: 20px;
@@ -59,21 +70,25 @@
 .Form_Link{
    color: #DFAD8B;
 }
-
-@media ( max-width: 900px ) {
-   .Login{
-      width: 80%;
-   }
-   .Login_Form{
-      width: 80%;
-   }
-   .Form_Input{
-      width: 70%;
-   }
+@media (max-width: 830px){
    .Form_Boton{
-      left: 0;
+      width: 100%;
    }
    .Form_Texto{
-      font-size: 15px;
+      width: 80%;
+   }
+}
+@media (max-width: 650px){
+   .Form_Titulo{
+      font-size: 25px;
+   }
+   .Login_Form{
+      width: 90%;
+   }
+   
+}
+@media (max-width: 470px){
+   .Form_Texto{
+      width: 100%;
    }
 }

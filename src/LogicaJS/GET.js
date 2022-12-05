@@ -1,12 +1,11 @@
 
 
 export default function GET({ keyword  }){
-const api_URL = `http://localhost:8080/${keyword}`
+const api_URL = `http://3.136.234.160:8080/${keyword}`
  
    return fetch(api_URL)
          .then( R => R.json())
-         .then( json  => {return json}
-   )
+         .then( json  => {return json})
 }
 
 /*
@@ -21,7 +20,7 @@ function Horas(){
             )
          })}
          </select>
-         </>
-         )
-      }
+      </>
+      )
+}
 */

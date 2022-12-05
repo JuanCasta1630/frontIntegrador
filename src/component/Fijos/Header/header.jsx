@@ -6,7 +6,7 @@ import Silog from './Header-Log/SiLogeado/Silog';
 
 const logoimg = require.context('../../../assets/img', true );
 
-function header({logeado, Autenticacion}){
+function header({ Autenticacion}){
     return(
         <header>
             <div className="Header_Contenedor">
@@ -15,7 +15,7 @@ function header({logeado, Autenticacion}){
                     <Link to='/' className="Nombre_Link"> <h1 className='Logo_Nombre'> Comienza tu aventura</h1> </Link>
                 </div>
                 <div className='Contenedor_Router'>
-                   {logeado ? <Silog Autenticacion={Autenticacion} /> : <Nolog/> }
+                   {(localStorage.getItem('jwt')) ? <Silog Autenticacion={Autenticacion} /> : <Nolog/> }
                 </div>
             </div> 
         </header>

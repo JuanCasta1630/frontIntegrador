@@ -1,0 +1,275 @@
+[
+    {
+        "id": 1,
+        "hour": "11:00:00",
+        "checkin": "2022-11-25",
+        "checkout": "2022-11-30",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 2,
+        "hour": "11:00:00",
+        "checkin": "2022-12-06",
+        "checkout": "2022-12-11",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 3,
+        "hour": "11:00:00",
+        "checkin": "2022-12-17",
+        "checkout": "2022-12-22",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 4,
+        "hour": "11:00:00",
+        "checkin": "2022-12-28",
+        "checkout": "2023-01-02",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 5,
+        "hour": "11:00:00",
+        "checkin": "2023-01-08",
+        "checkout": "2023-01-13",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 6,
+        "hour": "11:00:00",
+        "checkin": "2023-01-19",
+        "checkout": "2023-01-24",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 7,
+        "hour": "11:00:00",
+        "checkin": "2023-01-30",
+        "checkout": "2023-02-04",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 8,
+        "hour": "11:00:00",
+        "checkin": "2023-02-10",
+        "checkout": "2023-02-15",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 9,
+        "hour": "11:00:00",
+        "checkin": "2023-02-21",
+        "checkout": "2023-02-26",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 10,
+        "hour": "11:00:00",
+        "checkin": "2023-03-04",
+        "checkout": "2023-03-09",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 11,
+        "hour": "11:00:00",
+        "checkin": "2023-03-15",
+        "checkout": "2023-03-20",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 12,
+        "hour": "11:00:00",
+        "checkin": "2023-03-26",
+        "checkout": "2023-03-31",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 13,
+        "hour": "11:00:00",
+        "checkin": "2023-04-06",
+        "checkout": "2023-04-11",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 14,
+        "hour": "11:00:00",
+        "checkin": "2023-04-17",
+        "checkout": "2023-04-22",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 15,
+        "hour": "11:00:00",
+        "checkin": "2023-04-28",
+        "checkout": "2023-05-03",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 16,
+        "hour": "11:00:00",
+        "checkin": "2023-05-09",
+        "checkout": "2023-05-14",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 17,
+        "hour": "11:00:00",
+        "checkin": "2023-05-20",
+        "checkout": "2023-05-25",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 18,
+        "hour": "11:00:00",
+        "checkin": "2023-05-31",
+        "checkout": "2023-06-05",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 19,
+        "hour": "11:00:00",
+        "checkin": "2023-06-11",
+        "checkout": "2023-06-16",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 20,
+        "hour": "11:00:00",
+        "checkin": "2023-06-22",
+        "checkout": "2023-06-27",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    },
+    {
+        "id": 21,
+        "hour": "11:00:00",
+        "checkin": "2023-07-03",
+        "checkout": "2023-07-08",
+        "observations": "No Observations",
+        "product": {
+            "id": 1
+        },
+        "user": {
+            "id": 2
+        }
+    }
+]

@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Home{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+}
+.Home_From{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:space-around;
+  background-color: #0f3f54;
+  padding-bottom: 8px;
+}
+.HForm_Input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0f3f54;
+  padding-bottom: 8px;
+  flex-wrap: wrap;
+}
+.HForm_Input_Titulo{
+  color: #ececec;
+  font-size: 32px;
+}
+
+.HForm_Label_Button{
+  width: 15%;
+  height: 82px;
+  display: flex;
+  align-items: flex-end;
+  margin: 9px;
+  padding: 0;
+ 
+}
+/*#F2DEBA*/
+.HForm_Boton{
+  width: 100%;
+  height: 37px;
+  background-color: whitesmoke;
+  color: #0f3f54;
+  margin: 4px;
+  border: 1px solid  white;
+  box-shadow: 0 0 5px 1px grey;
+  padding: 6px;
+  border-radius: 8px;
+  
+}
+.Input_Label{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 10px 10px 10px;
+  width: 30%;
+  height: 60px;
+  position: relative;
+  top: 3px;
+  padding-bottom: 10px;
+}
+.rs-picker-block{
+  width: 100%;
+}
+.HForm_Strong{
+  font-size: 23px;
+  position: relative;
+  color: #ececec;
+  border-radius: 10%;
+  padding: 2px 4px;
+  flex-wrap: nowrap;
+}
+.selector{
+  position: relative;
+  bottom: 5px;
+  width: 100%;
+  height: 36px;
+  background-color: #f6f4f2;
+  color: #0f3f54;
+  font-size: 15px;
+  margin: 4px;
+  border: 1px solid  white;
+  box-shadow: 0 0 5px 1px grey;
+  padding: 4px;
+  border-radius: 8px;
+}
+.boton{
+  width: 90px;
+  height: 40%;
+  background-color: #DFAD8B;
+  color: #171D46;
+  font-size: 15px;
+  border: 1px solid  rgb(245, 241, 241);
+  box-shadow: 0 0 5px 1px grey;
+  padding: 4px;
+  position: relative;
+  top: 50px;
+  right: 10PX;
+  cursor: pointer;
+}
+.Form_Caregorias{
+  width: 97%;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 8px  0 ;
+}
+
+.Categoria_Texto{
+  padding: 3px;
+  font-size: 90%;
+  font-weight: 700;
+  transition: 2s;
+}
+.Categoria_Texto:hover{
+  text-decoration:3px underline rgb(227, 224, 224);
+  box-shadow: 0 0 3px 3px rgb(189, 189, 189);
+}
+.Cards{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0 ;
+  border-radius: 8px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  position: relative;
+
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+}
+.card{
+  width: 30%;
+  height: 500px;
+  background-color: #f8e9d4 ;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+  
+}
+
+.Card_Img{
+  width: 100%;
+  height: 55%;
+
+}
+
+.Div_descripcio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 45%;
+  margin: 2px 5px 0;
+}
+.Card_Titulo{
+  margin: 2px 5px 0;
+  color: rgb(12, 12, 35);
+  font-size: 23px;
+  font-weight: 500;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: start;
+}
+.Card_Descripcion{
+  width: 100%;
+  text-align: start;
+  font-size: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-style:oblique;
+}
+.precio_Card{
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(37, 37, 46);
+  font-size: 19px;
+  font-weight: 2;
+}
+.Card_Link{
+  width: 100%;
+}
+.button_Card{
+  width: 100%;
+  height: 40px;
+  background-color: #DFAD8B;
+  padding: 5px ;
+  color: black;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid #DFAD8B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s ;
+}
+.button_Card:hover {
+  font-weight: 900;
+  font-size: 30px; /* QUITAR pero JAJA */
+}
+
+.Lineas_card{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 15px; 
+  padding-top: 5px;
+}
+.boton_mas{
+  padding-bottom: 6px; 
+  padding-top: 8px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+
+}
+@media (max-width: 830px){
+  .HForm_Strong{
+    font-size: 17px;
+  }
+  .card{
+    width: 40%;
+    height: 450px;
+  }
+  .Card_Img{
+    height: 49%;
+  }
+  .Card_Titulo{
+    font-size: 20px;
+  }
+  .Div_descripcio{
+    width: 100%;
+    height: 50%;
+    padding: 0 10px;
+    margin: 0;
+  }
+  .Card_Descripcion {
+    width: 100%;
+    text-align: start;
+    font-size: 14px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+  .Card_Link{
+    width: 100%;
+    text-align: center;
+  }
+  .button_Card{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 650px){
+  .HForm_Input_Titulo{
+    font-size: 25px;
+  }
+  .HForm_Input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .HForm_Strong{
+    font-size: 20px;
+  }
+  .Input_Label{
+    width: 90%;
+  }
+  .HForm_Label_Button{
+    width: 91%;
+    display: flex;
+    align-items: center;
+  }
+
+  .card{
+    width: 90%;
+    margin-left: 0 ;
+  }
+  .Card_Descripcion{
+    font-size: 15px;
+  }
+}
